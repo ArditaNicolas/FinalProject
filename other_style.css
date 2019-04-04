@@ -1,0 +1,52 @@
+.image2 {
+    background-image: url('https://images.pexels.com/photos/1089842/pexels-photo-1089842.jpeg?cs=srgb&dl=album-announcement-background-1089842.jpg&fm=jpg?dl&fit=crop&crop=entropy&w=3508&h=4961');
+    min-height: 50%;
+    color: black;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 10%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content{
+	text-align: left;
+	font-size: 20px;
+    margin: 10px;
+    list-style-type: none;
+
+}
+
+span{
+	padding-bottom: 50px;
+}
+
+.copy{
+    padding: 50px;
+    text-align: center;
+}
+h5, h3{
+    font-size: 36px;
+    margin-bottom: 50px
+} 
+
+.sub{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.clear{
+    clear: both;
+}
+.item {
+    width: 24%;
+    float: left;
+    padding: 50px;
+    margin: 0 auto;
+    transition: transform .2s;
+}
+.item:hover {
+  transform: scale(1.5);
+}
